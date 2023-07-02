@@ -18,3 +18,31 @@ Turkmen State University (*mathematics faculty/bachelor degree*)
 ### TRAINING COURSES
 
 1. [FreeCodeCamp](https://www.freecodecamp.org/learn) (*in progress*)
+
+### SKILLS
+
+* **HARDSKILLS**
+    * HTML
+    * CSS
+    * JS (*basic*)
+    * VS Code
+    * GIT
+    * Figma
+
+* **SOFTSKILLS**  
+    * Positive attitude
+    * Flexibility
+    * Team oriented
+ 
+### EXAMPLE OF CODE
+
+```  
+function isDivideBy(number, a, b) {
+  if (number % a === 0 && number % b === 0) {
+    return true;
+  }
+  return false;
+}
+
+```
+
