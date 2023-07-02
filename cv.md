@@ -45,4 +45,12 @@ function isDivideBy(number, a, b) {
 }
 
 ```
+### WORK EXPERIENCE
+
+* RENAULT RUSSIA -  *logistics specialist*;
+* OPUS company - *sales department assistant*, *purchasing manager*
+
+### PORTFOLIO
+
+https://github.com/Phoenix2410
 
