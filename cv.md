@@ -54,3 +54,7 @@ function isDivideBy(number, a, b) {
 
 https://github.com/Phoenix2410
 
+### LANGUAGE SKILLS
+
+* **russian** native
+* **english** basic knowledge (A2)
