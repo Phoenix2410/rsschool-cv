@@ -54,14 +54,14 @@ h1, h2, h3, h4, h5, h6, p {
 /*HEADER*/
 
 .container {
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
   border: 2px solid #000;
 }
 header {
-  background: linear-gradient(45deg, rgb(154, 240, 246), rgb(41, 203, 203), rgb(157, 224, 157));
+  background: linear-gradient(45deg, rgb(61, 222, 222),rgb(154, 240, 246), rgb(41, 203, 203), rgb(157, 224, 157));
 }
 .header-wrapper {
   height: 100px;
@@ -76,13 +76,14 @@ header {
 }
 .nav-link {
   padding-right: 15px;
-  color: #fff;
+  color: rgb(198, 128, 25);
   font-size: 20px;
+  font-weight: bold;
   text-decoration: none;
 }
 .nav-link:hover {
   text-decoration: underline;
-  color: rgb(198, 128, 25);
+  color: rgb(135, 91, 25);
   font-weight: bold;
 }
 
@@ -93,7 +94,7 @@ header {
   justify-content: space-around;
   align-items: center;
   padding: 15px;
-  border-bottom: 10px solid rgb(41, 203, 203);
+  border-bottom: 10px solid rgb(61, 222, 222);
 }
 .section-profile__avatar {
   display: flex;
@@ -127,7 +128,10 @@ header {
 .section {
   width: 50%;
   padding: 15px;
-  border-bottom: 5px solid rgb(41, 203, 203);
+  border-bottom: 5px solid rgb(61, 222, 222);
+}
+.section-list {
+  margin-bottom: 20px;
 }
 .section-list  li {
   list-style-type: disc;
@@ -138,4 +142,8 @@ header {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 20px;
+}
+p {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
