@@ -5,11 +5,136 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header></header>
-  <main></main>
-  <footer></footer>
+  <header class="header">
+    <div class="container">
+      <div class="header-wrapper">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+              <li class="nav-item"><a href="#training" class="nav-link">Training courses</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+              <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+              <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+              <li class="nav-item"><a href="#education_workexperience" class="nav-link">Education & Work experience</a></li>
+              <li class="nav-item"><a href="#languagelevel" class="nav-link">Language Level</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="main-wrapper">
+        <section class="section-profile">
+          <figure class="section-profile__avatar">
+            <img src="img/phoenix.jpg" alt="avatar" class="section-profile__img">
+          </figure>
+          <div class="section-profile_content">
+            <h1 class="header__title">Svetlana Sharkunova</h1>
+          </div>
+        </section>
+        <div class="section-wrapper">
+          <section class="section" id="contacts">
+            <h3 class="title">Contacts</h3>
+            <ul class="section-list">
+              <li class="section-item"><b>location:</b> Lithuania, Vilnius</li>
+              <li class="section-item"><b>mobile phone:</b> +370 68391134</li>
+              <li class="section-item"><b>email:</b> phoenix.sa2410@gmail.com</li>
+           </ul>
+          </section>
+          <section class="section" id="summary">
+            <h3 class="title">Summary</h3>
+            <p>
+              My work experience is quite varied. I worked in the educational field, as well as in purchase department and transport logistics. But now I'm focused on getting new knowledge in the frontend. I already have a degree in mathematics and now my goal is to become a frontend developer. With the help of the RSSchool course, I will gain new knowledge and learn how to apply it in practice.
+            </p>
+          </section>
+          <section class="section" id="skills">
+            <h3 class="title">Skills</h3>
+            <h4>Hardskills</h4>
+              <ul class="section-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JS (basic)</li>
+                <li>VS Code</li>
+                <li>GIT</li>
+                <li>Figma</li>
+              </ul>
+              <h4>Softskills</h4>
+              <ul class="section-list">
+                <li>Positive attitude</li>
+                <li>Flexibility</li>
+                <li>Team oriented</li>
+              </ul>
+          </section>
+          <section class="section" id="code">
+            <h3 class="title">Code</h3>
+            <h4>Palindrome strings</h4>
+            <p>A palindrome is a word, phrase, number, or other sequence of characters which reads the same backward or forward. This includes capital letters, punctuation, and word dividers.</p>
+            <p>Implement a function that checks if something is a palindrome. If the input is a number, convert it to string first.</p>
+            <code>
+              function isPalindrome(line) {<br>
+                 line = String(line);<br>
+                 let lineReverse = line.split('').reverse().join('');<br>
+                 if (lineReverse === line) {<br>
+                 return true;<br>
+                 } else {<br>
+                    return false;<br>
+                 }<br>
+              }<br>
+        </code>
+          </section>
+          <section class="section" id="training">
+            <h3 class="title">Training courses</h3>
+            <ul class="section-list">
+              <li class="section-item">FreeCodeCamp (<i>in progress</i>)</li>
+              <li class="section-item">RSSchool Stage0 (<i>in progress</i>)</li>
+           </ul>
+          </section>
+          <section class="section" id="projects">
+            <h3 class="title">Projects</h3>
+            <p><a href="https://Phoenix2410.github.io/rsschool-cv/">CV</a></p>
+          </section>
+          <section class="section" id="education_workexperience">
+            <h3 class="title">Education & Work experience</h3>
+              <p><b>Turkmen State University</b> (mathematics faculty/bachelor degree)</p>
+            <ul class="section-list">
+              <li><b>Renault RUSSIA</b> - logistics specialist;</li>
+              <li><b>OPUS company</b> - sales department assistant, purchasing manager</li>
+              <li><b>Secondary school</b> - Maths teacher</li>
+           </ul>
+          </section>
+          <section class="section" id="languagelevel">
+            <h3 class="title">Language</h3>
+            <ul class="section__list">
+              <li><b>russian</b> native</li>
+              <li><b>english</b> basic knowledge (A2)</li>
+           </ul>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-wrapper">
+        <div class="footer-githublink">
+          <a href="https://github.com/Phoenix2410">GitHub</a>
+          <p><b>2023</b></p>
+       </div>
+        <div class="footer-rrs">
+          <a href="https://rs.school/js/">
+             <img class="footer_logo" src="img/logo_rs2.svg" alt="RSS_logo">
+          </a>
+       </div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
