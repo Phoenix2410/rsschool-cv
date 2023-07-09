@@ -29,7 +29,7 @@ html, body {
   font-family: "PT Sans";
 }
 body {
-  background-color: rgb(191, 215, 232);
+  background-color: #fff;
 }
 a, a:visited {
   text-decoration: none;
@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6, p {
   border: 2px solid #000;
 }
 header {
-  background: linear-gradient(45deg, rgb(187, 210, 235), rgb(113, 116, 195), rgb(60, 115, 60));
+  background: linear-gradient(45deg, rgb(154, 240, 246), rgb(41, 203, 203), rgb(157, 224, 157));
 }
 .header-wrapper {
   height: 100px;
@@ -82,4 +82,37 @@ header {
 }
 .nav-link:hover {
   text-decoration: underline;
+  color: #000;
+}
+
+/*MAIN*/
+
+.section-profile {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 10px solid rgb(66, 126, 142);
+}
+.section-profile__avatar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-profile__img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.header__title {
+  text-transform: uppercase;
+  font-size: 45px;
+  font-weight: 900;
+  margin-bottom: 15px;
+}
+.section-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
