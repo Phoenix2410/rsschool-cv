@@ -1,0 +1,52 @@
+/*base styles*/
+
+* {
+  box-sizing: border-box;
+}
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+ -webkit-box-sizing: border-box;
+ box-sizing: border-box;
+}
+
+nav, footer, header, aside, section, figure {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-size: 100%;
+  line-height: 1;
+  font-family: "PT Sans";
+}
+body {
+  background-color: rgb(127, 192, 235);
+}
+a, a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+ margin: 0;
+}
